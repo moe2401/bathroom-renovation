@@ -3,59 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e248b7b4e6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Bathroom Renovation</title>
 </head>
 <body>
-    <div class="container">
-        <div class="home">
-            <h1>Bathroom Renovation</h1>
-        </div>
-        <div class="nav">
-            <nav>
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Gallery</a>
-                <a href="">Contact</a>
-            </nav>
-        </div>
-    </div>    
 
-        
+    <div class="home" id="home">
+        <header>
+                <h1>Bathroom Renovation</h1>
+                
+                <nav>
+                    <ul class="nav">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+        </header> 
+    </div>  
 
-        
-
-        <section class="about">
-            <h2>About</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum mollitia expedita, molestiae eveniet repudiandae tenetur fugit cumque saepe distinctio eaque? Impedit porro, voluptates molestias, nisi reprehenderit suscipit maxime corrupti minima eius natus quisquam repellat rem cumque voluptatum placeat sit eveniet accusantium similique, molestiae quaerat ducimus iste esse. Iusto, sed labore.
-            </p>
-
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-
-        <section class="gallery">
-            <h2>Gallery</h2>
-            <div class="gallery-box">
-                <div class="box"><img src="img/renovation1.jpg" alt="renovation1"></div>
-                <div class="box"><img src="img/renovation2.jpg" alt="renovation2"></div>
-                <div class="box"><img src="img/renovation3.jpg" alt="renovation3"></div>
-                <div class="box"><img src="img/renovation4.jpg" alt="renovation4"></div>
-                <div class="box"><img src="img/renovation5.jpg" alt="renovation5"></div>
-            </div>   
-        </section>
-
-        <section class="contact">
-            <h2>Contact</h2>
-           
-        </section>
-
-
+    <div class="about" id="about">
+        <h1>About Us</h1>
+        <h2>We will make your dream bathroom</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam, optio eos expedita quae, dolore inventore ipsa perspiciatis necessitatibus quisquam dicta. Repellat et qui exercitationem itaque veniam laudantium odit cum!</p>
     
 
-    <script src="main.js"></script>
+        <div class="about-square">
+            <div class="square">
+                <div class="icon-box">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-bath fa-fw fa-3x icon"></i>
+                            <p>Professional</p>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-clock fa-fw fa-3x icon"></i>
+                            <p>Speedy</p>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-hand fa-fw fa-3x icon"></i>
+                            <p>Reliable</p>
+                        </li>
+                    </ul>    
+                </div> 
+           </div>
+        </div>   
+    </div>
 
+    <div class="gallery" id="gallery">
+        <h1>Gallery</h1>
+        <div class="gallery-box">
+            <div class="box"><img src="img/renovation1.jpg" alt="renovation1"></div>
+            <div class="box"><img src="img/renovation2.jpg" alt="renovation2"></div>
+            <div class="box"><img src="img/renovation3.jpg" alt="renovation3"></div>
+            <div class="box"><img src="img/renovation4.jpg" alt="renovation4"></div>
+            <div class="box"><img src="img/renovation5.jpg" alt="renovation5"></div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h1>Contact</h1>
+        <div>
+            <h3>Bathroom Renovation Compmany</h3>
+            <p>64 Adelaide St, Brisbane City QLD 4000<br>
+                <i class="fa-solid fa-phone"></i>0417555555<br>
+            </p>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.018464254176!2d153.02164781566782!3d-27.468684523237386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9159ed38eb42d7%3A0x81e26c2a81aec5e7!2sBrisbane%20City%20Hall!5e0!3m2!1sen!2sau!4v1659835882984!5m2!1sen!2sau" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> | BATHROOM RENOVATION | All Rights Reserved.</p>
+    </footer>
+
+
+
+
+    <script src="main.js"></script>
 </body>
 </html>
